@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Egg_Timer</title>
+        <link rel="stylesheet" href="eggs.css" />
+        <script src="egg.js" defer></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>How do you like your boiled eggs?</h1>
+
+            <div id="mode-buttons">
+                <button id="soft">Soft-boiled egg</button>
+                <button id="medium">Medium-boiled egg</button>
+                <button id="hard">Hard-boiled egg</button>
+            </div>
+
+            <div id="timer">00:00</div>
+
+            <div id="controls">
+                <button id="pause">pause</button>
+                <button id="reset">reset</button>
+            </div>
+
+            <div id="toast" role="alert"></div>
+
+            <img src="Gudetama.png" alt="egg image" id="egg_graphic">
+            <audio id="sound" src="Ripple.mp3"></audio>
+            <audio id="clickSound" src="knock.mp3" preload="auto"></audio>
+
+        </div>
+    </body>
+</html>
