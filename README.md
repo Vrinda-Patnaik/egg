@@ -1,0 +1,2 @@
+- Contains timers for various egg types- poaching, soft boil, hard boil etc.
+- Implemented styling using CSS and basic functionality using Javascript
